@@ -1,5 +1,5 @@
 ## What is this?
-A fun demo of a reverse shell.
+A quick demo of a reverse shell.
 
 ## How do I use it?
 
