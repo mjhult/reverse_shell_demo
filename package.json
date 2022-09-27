@@ -1,0 +1,20 @@
+{
+  "name": "bad_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "docker:build": "docker build . -t bad",
+    "docker:start": "docker run --name bad -d -p 3000:3000 bad",
+    "docker:stop": "docker container stop bad && docker container rm bad"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
